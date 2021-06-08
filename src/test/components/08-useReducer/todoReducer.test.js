@@ -36,7 +36,7 @@ describe('Pruebas en todoReducer', () => {
     const state = todoReducer(demoTodos, toggle)
     expect( state[1].done ).toBe(true)
   })
-  
+
   
 })
 

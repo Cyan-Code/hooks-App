@@ -2,11 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 export const TodoListItem = React.memo(({todo, index, handleDelete, handleToggle}) => {
-  console.log('me renderizo')
   return (
     <div>
       <li
-        key = { todo.id }
+        key = { todo.id } 
         className = "list-group-item"
       >
         <p
