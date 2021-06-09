@@ -24,7 +24,7 @@ export const TodoListItem = React.memo(({todo, index, handleDelete, handleToggle
     </div>
   )
 })
-
+TodoListItem.displayName = 'TodoListItem'
 TodoListItem.proptype = {
   todo: PropTypes.object.isRequired,
   index: PropTypes.number.isRequired,

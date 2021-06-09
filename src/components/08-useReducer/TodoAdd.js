@@ -18,7 +18,7 @@ export const TodoAdd = ({handleAddTodo}) => {
     }
     handleAddTodo ( newTodo )
     reset()
-  }
+  } 
 
   return (
     <>  

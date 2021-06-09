@@ -47,7 +47,7 @@ describe('Pruebas en el componente <TodoListItem />', () => {
     )
     const toggle = 'complete'
     expect( wrapper.find('p').hasClass(toggle) ).toBe(true)
-
+    
   })
   
   
